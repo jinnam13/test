@@ -328,7 +328,7 @@ public class MyActivity extends ActionBarActivity {
 	GoogleApiClient.OnConnectionFailedListener {
 		@Override
 		public void onConnectionFailed(ConnectionResult result) {
-			Log.e(TAG, "onConnectionFailed ");
+			Log.e(TAG, "onConnectionFailed!! ");
 			teardown();
 		}
 	}
